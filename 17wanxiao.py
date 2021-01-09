@@ -380,22 +380,9 @@ def run():
                     name = check['post_dict']['name']
                 log_info.append(f"""#### {name}{check['type']}打卡信息：
 ```
-{json.dumps(check['check_json'], sort_keys=True, indent=4, ensure_ascii=False)}
-```
 
-------
-| Text                           | Message |
-| :----------------------------------- | :--- |
-{post_msg}
-------
-```
 {check['res']}
 ```""")
-    log_info.append(f"""### ⚡考研倒计时:
-```
-{date}天
-```
-
 >
 > [GitHub项目地址](https://github.com/ReaJason/17wanxiaoCheckin-Actions)
 >
