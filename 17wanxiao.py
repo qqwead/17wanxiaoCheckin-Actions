@@ -383,7 +383,6 @@ def run():
 
 {check['res']}
 ```""")
->
 > [GitHub项目地址](https://github.com/ReaJason/17wanxiaoCheckin-Actions)
 >
 >期待你给项目的star✨
